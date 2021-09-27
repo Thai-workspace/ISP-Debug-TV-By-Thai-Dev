@@ -3,13 +3,16 @@
 
 แอพ Android นี้มีเทอร์มินัล / คอนโซลเชิงบรรทัดสำหรับอุปกรณ์ที่มีอินเตอร์เฟสซีเรียล / UART ที่เชื่อมต่อกับตัวแปลง USB เป็นซีเรียล
 
-## รองรับ USB เป็นตัวแปลงอนุกรมตาม
-- FTDI FT232, FT2232, ...
-- Prolific PL2303
-- Silabs CP2102, CP2105, ...
-- Qinheng CH340, CH341
+## รองรับ USB เป็นตัวแปลงอนุกรม
+
+-RT809x Mstar Debug TV-
+-FTDI FT232, FT2232, ...
+-Prolific PL2303
+-Silabs CP2102, CP2105, ...
+-Qinheng CH340, CH341
 
 และอุปกรณ์ที่ใช้โปรโตคอล USB CDC เช่น
+
 - Arduino โดยใช้ ATmega32U4
 - Digispark โดยใช้ V-USB ซอฟต์แวร์ USB
 - BBC micro:bit โดยใช้ ARM mbed เฟิร์มแว DAPLink
