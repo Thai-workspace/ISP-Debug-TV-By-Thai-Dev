@@ -1,35 +1,35 @@
 
-# TV System Debugging Tool
+# TV System Debugging Tools By Thai-Dev
 
-This Android app provides a line-oriented terminal / console for devices with a serial / UART interface connected with a USB-to-serial-converter.
+แอพ Android นี้มีเทอร์มินัล / คอนโซลเชิงบรรทัดสำหรับอุปกรณ์ที่มีอินเตอร์เฟสซีเรียล / UART ที่เชื่อมต่อกับตัวแปลง USB เป็นซีเรียล
 
-It supports USB to serial converters based on
+## รองรับ USB เป็นตัวแปลงอนุกรมตาม
 - FTDI FT232, FT2232, ...
 - Prolific PL2303
 - Silabs CP2102, CP2105, ...
 - Qinheng CH340, CH341
 
-and devices implementing the USB CDC protocol like
-- Arduino using ATmega32U4
-- Digispark using V-USB software USB
-- BBC micro:bit using ARM mbed DAPLink firmware
+และอุปกรณ์ที่ใช้โปรโตคอล USB CDC เช่น
+- Arduino โดยใช้ ATmega32U4
+- Digispark โดยใช้ V-USB ซอฟต์แวร์ USB
+- BBC micro:bit โดยใช้ ARM mbed เฟิร์มแว DAPLink
 
-## Features
+## คุณสมบัติ
 
-- permission handling on device connection
-- foreground service to buffer receive data while the app is rotating, in background, ...
+- การจัดการสิทธิ์ในการเชื่อมต่ออุปกรณ์
+- บริการเบื้องหน้าเพื่อบัฟเฟอร์รับข้อมูลในขณะที่แอปกำลังหมุนอยู่ในพื้นหลัง ...
 
-### Build status
+### Build สถานะ   
 
-| Track   | Status                                                                                                                                                                                                                                                           |
+| ติดตาม | สถานะ                                                                                                                                                                                                                                                        |
 | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Production | [![Build status](https://build.appcenter.ms/v0.1/apps/1e1a1b27-79f7-4a73-bc71-4fb8788f314e/branches/production/badge)](https://appcenter.ms) |
 | Beta | [![Build status](https://build.appcenter.ms/v0.1/apps/1e1a1b27-79f7-4a73-bc71-4fb8788f314e/branches/beta/badge)](https://appcenter.ms) |
 | Alpha | [![Build status](https://build.appcenter.ms/v0.1/apps/1e1a1b27-79f7-4a73-bc71-4fb8788f314e/branches/alpha/badge)](https://appcenter.ms) |
 
-## Credits
+## เครดิต
 
-The app uses the [usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android) library.
+แอปนี้ใช้ไลบรารี [usb-serial-for-android](https://github.com/mik3y/usb-serial-for-android)
 
-The app is base on [SimpleUsbTerminal](https://github.com/kai-morich/SimpleUsbTerminal) app.
+แอปนี้ใช้แอป [SimpleUsbTerminal] (https://github.com/kai-morich/SimpleUsbTerminal)
 
