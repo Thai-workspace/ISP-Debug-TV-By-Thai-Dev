@@ -15,7 +15,7 @@
 
 - Arduino โดยใช้ ATmega32U4
 - Digispark โดยใช้ V-USB ซอฟต์แวร์ USB
-- BBC micro:bit โดยใช้ ARM mbed เฟิร์มแว DAPLink
+- BBC micro:bit โดยใช้ ARM mbed เฟิร์มแวร์ DAPLink
 
 ## คุณสมบัติ
 
